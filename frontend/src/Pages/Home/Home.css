@@ -1,0 +1,85 @@
+.body {
+    margin: 0;
+    background: linear-gradient(to right, #42275a, #734b6d);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+a {
+    color: #cfcfcf;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+.text {
+    text-align: center;
+}
+
+h1 {
+    font-size: 5em;
+    margin: 0;
+    color: white;
+}
+
+sub {
+    margin: 0;
+    font-size: 2.5em;
+    color: white;
+}
+
+input {
+    padding-left: 10px;
+    height: 3.125em;
+    margin-bottom: 1em;
+    width: 100%;
+    border-radius: 10px;
+    border: 0;
+    background: #a0829b
+}
+
+input:hover {
+    filter: brightness(110%);
+}
+
+input:focus {
+    outline: none
+}
+
+input::placeholder {
+    color: #734b6d;
+}
+
+button {
+    margin: 0.7em 0;
+    padding: 0.4em 3em;
+    font-size: 1.2em;
+    border-radius: 20px;
+    border: none;
+    color: white;
+    background: rgba(46, 27, 27, 0.467);
+}
+
+button.cancel-btn {
+    margin-right: 0.5em;
+}
+
+#user-data {
+    display: flex;
+    height: 50vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: right;
+}
+
+.sign-in{
+    width: 25em;
+}
+
+.register{
+    width: 25em;
+}
